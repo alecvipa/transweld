@@ -4,14 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Xyncs: Marketing digital</title>
-    <meta name="description" content="">
+    <title>Trans-Weld</title>
+    <meta name="description"
+        content="mpresa mexicana dedicada a la fabricación industrial, solución, asesoría y ejecución de proyectos que involucren soldadura y calidad.
+        Nuestra especialidad es el servicio de tratamiento térmico en sitio en cualquier parte de México (desde Tijuana hasta Quintana Roo).">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="/assets/css/startup-materialize.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://kit.fontawesome.com/28f081bff3.js" crossorigin="anonymous"></script>
-   
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
 
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -65,52 +70,27 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-solid-transition">
+    <nav class="nav-extended" style="background-color: #7d0404 ;">
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo"><img src="/assets/images/logoBlancoTransparent.png" alt="logoNegro"
-                    class="logoNegroBg"></a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="/">Inicio</a></li>
-                <li class="active"><a class="dropdown-trigger" href="#!" data-target="pages">Servicios<i
-                            class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="/proyectos">Proyectos</a></li>
-                <li><a href="/contacto">Contacto</a></li>
-                <li><a href="/privacidad">Aviso de privacidad</a></li>
-
-            </ul>
-
-            <ul id="pages" class="dropdown-content">
-                <li><a href="/webdesign">Diseño Web</a></li>
-                <li><a href="/digital">Social Media</a></li>
-                <li><a href="/campaigns">Campañas digitales</a></li>
-
-            </ul>
-
-            <a href="#" data-target="slide-out" class="sidenav-trigger button-collapse right"><i
-                    class="material-icons white-text">menu</i></a>
+            <div class="container">
+                
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Inicio</a></li>
+                    <li><a href="badges.html">Nosotros</a></li>
+                    <li><a href="collapsible.html">Proyectos</a></li>
+                    <li><a href="collapsible.html">Contacto</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <ul id="slide-out" class="sidenav">
-        <li><a href="/">Inicio</a></li>
-        <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-                <li class="bold">
-                    <a class="collapsible-header waves-effect waves-teal active">Servicios<i
-                            class="material-icons right">arrow_drop_down</i></a>
-                    <div class="collapsible-body">
-                        <ul>
-                            <li><a href="/webdesign">Diseño Web</a></li>
-                            <li><a href="/digital">Social Media</a></li>
-                            <li><a href="/campaigns">Campañas digitales</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </li>
-        <li><a href="/proyectos">Proyectos</a></li>
-        <li><a href="/contacto">Contacto</a></li>
-        <li><a href="/privacidad">Aviso de privacidad</a></li>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
     </ul>
+
     <div class="bodyPrincipal">
         {{{body}}}
     </div>
@@ -154,6 +134,9 @@
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="/assets/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
     <!-- External libraries -->
     <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
@@ -165,6 +148,8 @@
     <!-- Initialization script -->
     <script src="/assets/js/startup.js"></script>
     <script src="/assets/js/init.js"></script>
+
+    <script src="/assets/js/script.js"></script>
 
 
 
