@@ -9,6 +9,17 @@
     color: black !important;
     
 }
+.fontTrans{
+    font-family: 'DM Sans', sans-serif;
+}
+.titleInicio{
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 8px;
+    width: 30% !important;
+    padding: 3%;
+    
+    
+}
 .textSomos{
     font-size: 25px;
     line-height: 1.5;
@@ -23,11 +34,7 @@
 .material-icons{
     color: white !important;
 }
-.somosXyncs{
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: white;
-}
+
 .celXyncs{
   display: block;
   margin-left: auto;
@@ -43,44 +50,27 @@
 .textBlack{
     color: black !important;
 }
-.weBanner{
-    height: 50rem;
-    background-image: url('/assets/images/bannerWd.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.logoNav{
+    width: 27%;
 }
-.soBanner{
-    height: 50rem;
-    background-image: url('/assets/images/bannerSm.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.nav-wrapper{
+    padding-top: 1%;
 }
-.campDiv{
-    height: 50rem;
-    background-image: url('/assets/images/bannerC.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
-.divContacto{
+.imageDiv{
     height: 30rem;
-    background-image: url('/assets/images/bannerContacto.jpg');
+    background-image: url('/assets/images/transBanner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding-top: 3rem;
 }
-.bannerPrivacidad2{
-    height: 50rem;
-    background-image: url('/assets/images/bannerPrivacidad.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
+.secondDiv{
+    background-color: black;
+    padding: 3%;
 }
+
 
 @media only screen and (min-width : 992px) {
     .nOlvidar{
@@ -92,14 +82,16 @@
 }
 
 @media only screen and (max-width : 991px) {
-    .logoNegroBg{
-        width: 15% !important;
-        padding: 0%;
+    .logoNav{
+        width: 56%;
+        margin-left: 6%;
     }
-    .weBanner, .soBanner, .campDiv{
-        height: 23rem;
+    .nav-wrapper{
+        padding-top: 4%;
     }
-    
+    .titleInicio{
+        width: 90% !important;
+    }
 }
 
 @media only screen and (max-width : 600px) {}
