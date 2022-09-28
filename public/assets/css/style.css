@@ -53,6 +53,7 @@
 }
 .textWthite{
     color:  #fabab2 !important;
+    
 }
 .textRealWhite{
     color: white !important;
@@ -66,7 +67,25 @@
 .nav-wrapper{
     padding-top: 1%;
 }
+.iconOrange{
+    color: orange !important;
+}
+.textProd{
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+.transWimg{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.textWhite{
+    color: white !important;
+}
 .imageDiv{
     height: 30rem;
     background-image: url('/assets/images/transBanner.jpg');
