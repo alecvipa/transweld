@@ -15,7 +15,6 @@
 .imageWelding{
     width: 100%;
     margin-right: auto;
-    margin-left: 5%;
     display: block;
     border-radius: 8px;
 }
@@ -53,6 +52,13 @@
 }
 .textWthite{
     color:  #fabab2 !important;
+    
+}
+.btnnServ{
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 10%;
+    display: block;
     
 }
 .textRealWhite{
@@ -95,7 +101,7 @@
     padding-top: 3rem;
 }
 
-.nosotros{
+.nosotros, .nuestroTrabajo{
     background-color: white;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -113,6 +119,10 @@
     }
     .divContacto{
         background-position: 0% 17%;
+    }
+    .imageWelding{
+
+        margin-left: 5%;
     }
 }
 
