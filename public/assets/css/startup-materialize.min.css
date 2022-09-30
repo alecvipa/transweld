@@ -2056,7 +2056,8 @@
 
 .grey.lighten-3,
 .page-footer {
-    background-color: #eee !important
+    background-color: white !important;
+    color: black !important;
 }
 
 .grey-text.text-lighten-3 {
@@ -12348,7 +12349,7 @@ textarea.materialize-textarea+label {
 
 .page-footer ul li a,
 .page-footer p {
-    color: #aaa;
+    color: black;
     font-size: .8rem;
     font-weight: 300;
     margin: 5px 0

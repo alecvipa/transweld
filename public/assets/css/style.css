@@ -100,16 +100,27 @@
     background-size: cover;
     padding-top: 3rem;
 }
+.clientesB{
+    height: 53rem;
+    background-image: url('/assets/images/bannerClientes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3rem;
+}
 
 .nosotros, .nuestroTrabajo{
     background-color: white;
     padding-top: 3%;
-    padding-bottom: 3%;
 }
 
 .secondDiv{
   
     padding: 3%;
+}
+.conocen{
+    background-color: white;
+    padding-top: 3%;
 }
 
 
@@ -136,6 +147,10 @@
     }
     .titleInicio{
         width: 90% !important;
+    }
+    .clientesB{
+        height: 15rem;
+        
     }
 }
 

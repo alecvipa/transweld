@@ -72,29 +72,43 @@
 </head>
 
 <body class="fontTrans">
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="fa-solid fa-fire-flame-curved"></i>
+        </a>
+        <ul>
+            <li><a class="btn-floating green"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a class="btn-floating red"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="btn-floating blue"><i class="fa-brands fa-facebook"></i></a></li>
+
+        </ul>
+    </div>
 
     <!-- Navbar -->
-    <nav class="nav-extended" style="background-color:  rgb(233, 156, 55);">
-        <div class="nav-wrapper">
-            <div class="container">
-                <img src="/assets/images/logoB.png" alt="" class="logoNav">
+    <div class="navbar-fixed">
+        <nav class="nav-extended" style="background-color:  rgb(233, 156, 55);">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <img src="/assets/images/logoB.png" alt="" class="logoNav">
 
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Inicio</a></li>
-                    <li><a href="#nosotros">Nosotros</a></li>
-                    <li><a href="collapsible.html">Proyectos</a></li>
-                    <li><a href="collapsible.html">Contacto</a></li>
-                </ul>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="collapsible.html">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Inicio</a></li>
+        <li><a href="/">Inicio</a></li>
         <li><a href="#nosotros">Nosotros</a></li>
-        <li><a href="collapsible.html">Proyectos</a></li>
-        <li><a href="collapsible.html">Contacto</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="/contacto">Contacto</a></li>
     </ul>
 
     <div class="bodyPrincipal">
@@ -104,35 +118,23 @@
     <footer class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col s6 m3">
+                <div class="col s12 m6 center">
                     <img class="materialize-logo" src="images/materialize-teal.png" alt="">
-                    <p>TRANS WELD WELDING AND HEAT TREATMENT</p>
+                    <h5>TRANS WELD WELDING AND HEAT TREATMENT</h5>
+                    <i class="fa-solid fa-fire-flame-curved"></i>
                 </div>
-                <div class="col s6 m3">
-                    <h5>Nosotros</h5>
-                    <ul>
-                        <li><a href="#!">Proyectos</a></li>
-                        <li><a href="#!">Contizaciones</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="col s6 m3">
+                <div class="col s12 m6 center">
                     <h5>Contacto</h5>
-                    <ul>
-                        <li><a href="#!">Instagram</a></li>
-                        <li><a href="#!">Facebook</a></li>
+                    <h6>
+                        
+                            <a href="#!"><i class="fa-brands fa-instagram "></i> <span class="textBlack">Instagram</span></a>
+                            <a href="#!"><i class="fa-brands fa-facebook"></i> <span class="textBlack">Facebook</span></a>
+                            <a href="#!"><i class="fa-regular fa-envelope"></i> <span class="textBlack">E-mail</span></a>
 
-                    </ul>
+                        
+                    </h6>
                 </div>
-                <div class="col s6 m3">
-                    {{!-- <h5>Connect</h5>
-                    <ul>
-                        <li><a href="#!">Community</a></li>
-                        <li><a href="#!">Subscribe</a></li>
-                        <li><a href="#!">Email</a></li>
-                    </ul> --}}
-                </div>
+
             </div>
         </div>
     </footer>
