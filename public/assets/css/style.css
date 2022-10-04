@@ -160,8 +160,11 @@
         width: 90% !important;
     }
     .clientesB{
-        height: 15rem;
+        height: 14rem;
         
+    }
+    .nosotros{
+        padding-bottom: 10%;
     }
 }
 
