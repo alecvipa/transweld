@@ -43,6 +43,10 @@ app.get('/privacidad', function (req, res) {
     res.render('privacidad')
 
 });
+app.get('/contacto', function (req, res) {
+    res.render('contacto')
+
+});
 
 
 

@@ -5,6 +5,13 @@
 }
 .pointer {cursor: pointer;}
 
+.page-footer{
+     background-color: rgb(45, 44, 44) !important;
+     color: white !important;
+}
+.textLink{
+    color: white !important;
+}
 .navItems {
     color: black !important;
     
@@ -20,6 +27,9 @@
 }
 .textBlack{
     color: black;
+}
+.textWhite{
+    color: white !important;
 }
 .titleInicio{
     background-color: rgba(0, 0, 0, 0.678);
@@ -101,12 +111,13 @@
     padding-top: 3rem;
 }
 .clientesB{
-    height: 53rem;
+    height: 40rem;
     background-image: url('/assets/images/bannerClientes.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 3rem;
+    background-position: 25% 17%;
 }
 
 .nosotros, .nuestroTrabajo{
